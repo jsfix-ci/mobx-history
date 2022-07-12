@@ -1,7 +1,7 @@
 import {autorun, toJS} from "mobx";
 import History from "../History";
 import assert from "assert";
-import createHistory from "history/createMemoryHistory";
+import { createMemoryHistory as createHistory } from 'history';
 import {expect} from "chai";
 
 describe('History', () => {
